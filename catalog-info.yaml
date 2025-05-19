@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: simple-test-backstage
+  annotations:
+    github.com/project-slug: onepushmain-turno/simple-test-backstage
+spec:
+  type: other
+  lifecycle: unknown
+  owner: guests
