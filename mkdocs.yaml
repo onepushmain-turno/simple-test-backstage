@@ -1,0 +1,11 @@
+site_name: 'simple-test-backstage'
+site_description: 'only test the techdocs'
+repo_url: https://github.com/onepushmain-turno/simple-test-backstage
+edit_uri: edit/main/docs
+
+plugins:
+  - techdocs-core
+
+nav:
+  - overview:
+    - Getting started: 'docs/index.md'

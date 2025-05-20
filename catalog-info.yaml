@@ -5,6 +5,7 @@ metadata:
   description: simple test for kind/argo/bs
   annotations:
     github.com/project-slug: onepushmain-turno/simple-test-backstage
+    backstage.io/techdocs-ref: dir:.
 spec:
   type: service
   lifecycle: experimental
