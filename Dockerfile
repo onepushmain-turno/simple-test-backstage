@@ -9,6 +9,6 @@ WORKDIR /app
 COPY --from=build /app /app
 RUN apk add dumb-init
 
-EXPOSE 80
+EXPOSE 5211
 USER node
 CMD ["dumb-init", "node", "app.js"]
