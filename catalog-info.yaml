@@ -2,9 +2,10 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: simple-test-backstage
+  description: simple test for kind/argo/bs
   annotations:
     github.com/project-slug: onepushmain-turno/simple-test-backstage
 spec:
-  type: other
-  lifecycle: unknown
-  owner: guests
+  type: service
+  lifecycle: experimental
+  owner: turno-dev
