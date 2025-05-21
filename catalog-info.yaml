@@ -8,6 +8,7 @@ metadata:
     backstage.io/techdocs-ref: dir:.
     backstage.io/kubernetes-label-selector: app=test-app-r10
     backstage.io/kubernetes-namespace: default
+    argocd/app-name: app-r10-test
 spec:
   type: service
   lifecycle: experimental
